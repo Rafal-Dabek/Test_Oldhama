@@ -1,8 +1,6 @@
 
-
-
-
 function done(){
+
   var A=0;
   var B=0;
   var C=0;
@@ -90,13 +88,28 @@ if((p.length)!=107)
 }
 else
 {
-  // if(!isNaN(document.getElementById("disp").innerHTML))
-  // {
-  //     document.getElementById("disp").innerHTML += "Wynik okołoemocjonalny: " + okołoemocjonalne + "<br>" +
-  //     "Wynik zadaniowy: " + zadaniowe + "<br>";
 
-      
-  // }
+ if(!isNaN(document.getElementById("disp").innerHTML))
+   {
+        document.getElementById("disp").innerHTML +=
+        "Czujny: " + A + "<br>" +
+        "Samotniczy: " + B + "<br>" +
+        "Nie-zwyczajny: " + C + "<br>" +
+        "Awanturniczy: " + D + "<br>" +
+        "Zmienny: " + E + "<br>" +
+        "Dramatyczny: " + F + "<br>" +
+        "Pewny siebie: " + G + "<br>" +
+        "Ostrożny: " + H + "<br>" +
+        "Oddany: " + I + "<br>" +
+        "Sumienny: " + J + "<br>" +
+        "Wygodny: " + K + "<br>" +
+        "Władczy: " + L + "<br>" +
+        "Ofiarny: " + M + "<br>" +
+        "Poważny: " + N + "<br>";
+    
+   }
+
+ 
 
   
 
