@@ -82,7 +82,7 @@ function done(){
 // }
 
 
-if((p.length)!=108)
+if((p.length)!=107)
 {
 
     alert("Nie wszytkie odpowiedzi są zaznaczone!")
