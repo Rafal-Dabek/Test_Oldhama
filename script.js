@@ -64,22 +64,44 @@ function done(){
   M+=(parseInt(p[5])+parseInt(p[6])+parseInt(p[28])+parseInt(p[32])+parseInt(p[33])+parseInt(p[34])+parseInt(p[35])+parseInt(p[36]));  
   N+=(parseInt(p[24])+parseInt(p[25])+parseInt(p[26])+parseInt(p[27])+parseInt(p[70])+parseInt(p[89])+parseInt(p[97]));  
 
-if(A==0 &&B==0 &&C==0 &&D==0 &&E==0  &&F==0 &&G==0 && H==0 &&I==0 &&J==0 &&K==0 &&L==0  &&M==0 &&N==0||(  isNaN(A) || isNaN(B)|| isNaN(C)|| isNaN(D)|| isNaN(E)|| isNaN(F)|| isNaN(G)|| isNaN(H)|| isNaN(I)|| isNaN(J)|| isNaN(K)|| isNaN(L)|| isNaN(M)|| isNaN(N)) )
+// if(A==0 &&B==0 &&C==0 &&D==0 &&E==0  &&F==0 &&G==0 && H==0 &&I==0 &&J==0 &&K==0 &&L==0  &&M==0 &&N==0||(  isNaN(A) || isNaN(B)|| isNaN(C)|| isNaN(D)|| isNaN(E)|| isNaN(F)|| isNaN(G)|| isNaN(H)|| isNaN(I)|| isNaN(J)|| isNaN(K)|| isNaN(L)|| isNaN(M)|| isNaN(N)) )
+// {
+//   alert ("Wszystkie pola muszą być uzupełnione!");
+// }
+// else
+// {
+//   document.getElementById("disp").innerHTML
+//   +=  " Osiągnięcia: "
+//   + achivement + "<br>"
+  
+//     + " Władza: "
+//   + control + "<br>"
+  
+//    + " Przynależnośc: "
+//   + membership + "<br>";
+// }
+
+
+if((p.length)!=108)
 {
-  alert ("Wszystkie pola muszą być uzupełnione!");
+
+    alert("Nie wszytkie odpowiedzi są zaznaczone!")
+          
 }
 else
 {
-  document.getElementById("disp").innerHTML
-  +=  " Osiągnięcia: "
-  + achivement + "<br>"
+  // if(!isNaN(document.getElementById("disp").innerHTML))
+  // {
+  //     document.getElementById("disp").innerHTML += "Wynik okołoemocjonalny: " + okołoemocjonalne + "<br>" +
+  //     "Wynik zadaniowy: " + zadaniowe + "<br>";
+
+      
+  // }
+
   
-    + " Władza: "
-  + control + "<br>"
-  
-   + " Przynależnośc: "
-  + membership + "<br>";
+
 }
+
 
 
 
