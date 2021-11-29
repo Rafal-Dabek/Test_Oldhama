@@ -129,8 +129,7 @@ td, th
     font-size: 23px;
     
 }
-
-#result_section1, #result_section2,#result_section3,#result_section4,#result_section5,#result_section6,#result_section7,#result_section8
+.result_section
 {
     margin-left: auto;
     margin-right: auto;
