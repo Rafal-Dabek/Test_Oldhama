@@ -139,3 +139,21 @@ td, th
     border: 3px solid black;
     display: block;
 }
+
+#opisWyniku
+{
+    font-size: 24px;
+}
+
+#tabela{
+    width:80%;
+    margin: auto;
+}
+
+.tabelaCechy td{
+text-align: left;
+}
+
+.tabelaCechy{
+    background-color:white;
+}
