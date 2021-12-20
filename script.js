@@ -111,7 +111,7 @@ else
         document.getElementById("opisWyniku").innerHTML += "<br><br><br><br>"
   }
 
-      document.getElementsByClassName("result_section").style.display = "block";
+     
   }
 
   
