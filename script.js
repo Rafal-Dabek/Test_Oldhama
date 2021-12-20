@@ -110,6 +110,8 @@ else
         document.getElementById("opisWyniku").innerHTML += teksty[indexes[index]] + cechy[indexes[index]] + tabele[indexes[index]];
         document.getElementById("opisWyniku").innerHTML += "<br><br><br><br>"
   }
+
+      document.getElementsByClassName("result_section").style.display = "block";
   }
 
   
